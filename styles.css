@@ -1,0 +1,54 @@
+:root {
+    --blue-color: #4267b2;
+    --white-color: #fff;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-color: var(--blue-color);
+    width: 255px;
+    height: 300px;
+    border-right: 45px solid var(--blue-color);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    position: absolute;
+}
+
+span.vertical {
+    background-color: var(--blue-color);
+    width: 72px;
+    height: 295px;
+    border: 45px solid var(--white-color);
+    bottom: -126px;
+    right: -70px;
+    border-radius: 70px;
+}
+
+.horizontal {
+    background-color: var(--white-color);
+    width: 130px;
+    height: 45px;
+    top: 139px;
+    right: 3px;
+}
+
+/* span.diagonal {
+    background-color: var(--blue-color);
+    width: 50px;
+    height: 50px;
+    top: 140px;
+    right: -43px;
+    z-index: 1;
+    transform: rotateZ(-82deg);
+} */
